@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    tools:context="com.example.aquib.myattendencemanagementsystem.Modify_Student">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp">
+
+
+        <EditText
+            android:id="@+id/UpdateStudenrName"
+            android:layout_width="340dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:hint="@string/studentName"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textIsSelectable="true"
+            android:textColor="@color/White"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/UpdateStudentRegno"
+            android:layout_width="340dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:hint="@string/Reg.No."
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textIsSelectable="true"
+            android:textColor="@color/White"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/UpdateStudent_cource"
+            android:layout_width="340dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:hint="@string/Cource"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textIsSelectable="true"
+            android:textColor="@color/White"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/UpdateStudent_semester"
+            android:layout_width="340dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:hint="@string/Semester"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textIsSelectable="true"
+            android:textColor="@color/White"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        style="?android:textAppearanceMedium"
+        android:id="@+id/Update_student_button"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/Update_Data"
+        android:textColor="@color/White"
+        android:background="@color/Rpurple"
+        android:layout_marginTop="10dp" />
+    <Button
+        style="?android:textAppearanceMedium"
+        android:id="@+id/Delete_Student_Button"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/delete"
+        android:textColor="@color/black"
+        android:background="@color/Lblue"
+        android:layout_marginTop="5dp"
+        />
+</LinearLayout>

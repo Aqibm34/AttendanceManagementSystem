@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="greenYellow">#d9f442</color>
+    <color name="colorPrimary">#3399ff</color>
+    <color name="colorPrimaryDark">#0080ff</color>
+    <color name="colorAccent">#3399ff</color>
+    <color name="White">#ffffff</color>
+    <color name="green">#33cc33</color>
+    <color name="Red">#ff0000</color>
+    <color name="yellow">#ffff00</color>
+    <color name="light_yellow">#e6e600</color>
+    <color name="black">#000000</color>
+    <color name="Rpurple">#ff0066</color>
+    <color name="Lblue">#33cccc</color>
+    <color name="Bpurple">#333399</color>
+    <color name="Purple">#993366</color>
+    <color name="red">#e74c3c</color>
+    <color name="orange">#e67e22</color>
+    <color name="turquoise">#1abc9c</color>
+    <color name="Green">#2ecc71</color>
+    <color name="blue">#3498db</color>
+    <color name="purple">#9b59b6</color>
+    <color name="gRR">#000099</color>
+    <color name="lgrr">#0000b3</color>
+    <color name="grey">#d4d6d8</color>
+    <color name="darkGrey">#324e4e</color>
+    <color name="gradientstartcolor">#005236</color>
+    <color name="gradinetEnd">#018650</color>
+    <color name="tranparent">#00ffffff</color>
+    <color name="dividerColor">#74597a</color>
+    <color name="backgroundStartGr">#d422f5</color>
+    <color name="backgroundEndGr">#541394</color>
+    <color name="A">#009900</color>
+    <color name="B">#669900</color>
+    <color name="C">#005ce6</color>
+
+</resources>

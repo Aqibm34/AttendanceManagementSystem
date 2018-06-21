@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    tools:context="com.example.aquib.myattendencemanagementsystem.StudentPortal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+<Spinner
+    android:layout_width="320dp"
+    android:layout_height="50dp"
+    android:spinnerMode="dropdown"
+    android:id="@+id/SelectAttendenceViewSpinner"
+    android:dropDownSelector="@color/yellow">
+</Spinner>
+ <Button
+     android:layout_width="80dp"
+     android:layout_height="50dp"
+     android:id="@+id/spinnerButton"
+     android:textSize="20sp"
+     android:textColor="@color/White"
+     android:text="@string/ViewAttendenceBy"
+     android:background="@color/colorPrimary"
+     />
+    </LinearLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Reg.No."
+            android:id="@+id/getRegno"
+            android:textColor="@color/White"/>
+
+
+    </android.support.design.widget.TextInputLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Cource"
+        android:id="@+id/cource_textview"
+        android:textSize="25sp"
+        android:textColor="@color/White"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:id="@+id/Cource_Spinner"
+        android:dropDownSelector="@color/yellow"
+        android:layout_marginStart="45dp">
+    </Spinner>
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Semester"
+        android:textSize="25sp"
+        android:id="@+id/semester_textview"
+        android:textColor="@color/White"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:id="@+id/semester_spinner"
+        android:dropDownSelector="@color/yellow"
+        android:layout_marginStart="20dp">
+    </Spinner>
+
+
+</LinearLayout>
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subject"
+        android:textSize="25dp"
+        android:textColor="@color/White"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:spinnerMode="dropdown"
+        android:id="@+id/subject_spinner"
+        android:dropDownSelector="@color/yellow">
+
+    </Spinner>
+
+
+</LinearLayout>
+
+    <Button
+        style="?android:textAppearanceMedium"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/White"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/attendence_details"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/getAttendenceButton"/>
+
+</LinearLayout>

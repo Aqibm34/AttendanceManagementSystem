@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aquib.myattendencemanagementsystem.Add_Student"
+    android:orientation="vertical"
+    android:background="@drawable/gradient">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp">
+
+
+        <EditText
+            android:id="@+id/StudentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/studentName"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textIsSelectable="true"
+            android:textColor="@color/White"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/StudentREGNO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Reg.No."
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textIsSelectable="true"
+            android:textColor="@color/White"/>
+    </android.support.design.widget.TextInputLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="?android:textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Cource"
+            android:textSize="20sp"
+            android:textColor="@color/White"
+            android:textStyle="bold"
+            />
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dialog"
+        android:dropDownSelector="@drawable/gradient"
+        android:layout_marginLeft="34dp"
+        android:id="@+id/addStudentCourceSpinner">
+    </Spinner>
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        style="?android:textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Semester"
+        android:textSize="20sp"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        />
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dialog"
+        android:dropDownSelector="@color/Green"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/addStudentSemesterSpinner"
+        android:layout_marginTop="5dp">
+    </Spinner>
+
+</LinearLayout>
+
+    <Button
+        android:id="@+id/Add_student_button"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/Add"
+        android:textColor="@color/White"
+        android:background="@color/Rpurple"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

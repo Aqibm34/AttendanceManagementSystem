@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/tranparent">
+
+    <TextView
+        android:id="@+id/Admin_id_TV"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="6dp"
+        android:padding="3dp"
+        android:textColor="@color/White"
+        android:visibility="visible"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/Admin_name_TV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/Admin_id_TV"
+        android:maxLines="1"
+        android:textColor="@color/White"
+        android:padding="3dp"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Admin_Password_TV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Admin_name_TV"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/Admin_id_TV"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:padding="6dp"
+        android:textSize="17sp"
+        android:visibility="visible"
+        android:textStyle="italic"
+        android:textColor="@color/White"/>
+
+</RelativeLayout>

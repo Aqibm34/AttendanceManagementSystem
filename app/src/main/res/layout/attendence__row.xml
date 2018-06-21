@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/tranparent">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/student_attendence_name"
+    android:layout_alignParentStart="true"
+    android:padding="5dp"
+    android:visibility="visible"
+    android:textSize="25sp"
+    android:textColor="@color/White"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/student_attendence_name"
+        android:id="@+id/linear_layout">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/student_attendence_regNo"
+        android:layout_marginRight="40dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/student_attendence_Cource"
+        />
+    </LinearLayout>
+
+
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/linear_layout"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="5dp"
+            android:padding="3dp"
+            android:id="@+id/radio_group"
+            >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/present"
+            android:layout_marginEnd="40dp"
+            android:textStyle="bold"
+            android:id="@+id/present_radio"
+            style="?android:textAppearanceMedium"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/absent"
+            android:textStyle="bold"
+            style="?android:textAppearanceMedium"
+            android:id="@+id/absent_radio"/>
+
+        </RadioGroup>
+
+
+    </RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    tools:context="com.example.aquib.myattendencemanagementsystem.Modify_Admin">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="80dp"
+        >
+
+        <AutoCompleteTextView
+            android:id="@+id/upd_admin_username"
+            android:layout_width="340dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:textColor="@color/White"
+            android:textIsSelectable="false" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorAccent">
+
+        <EditText
+            android:id="@+id/upd_admin_password"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="@string/Prompt_passwrd"
+            android:imeActionLabel="@string/action_sign_in_short"
+            android:imeOptions="actionUnspecified"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textColor="@color/White"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/Admin_Modify_Button"
+        style="?android:textAppearanceMedium"
+        android:layout_width="340dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@color/Red"
+        android:text="@string/Update_Data"
+        android:textColor="@color/White"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        />
+    <Button
+        android:id="@+id/Admin_Delete_Button"
+        style="?android:textAppearanceMedium"
+        android:layout_width="340dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@color/light_yellow"
+        android:text="@string/delete"
+        android:textColor="@color/White"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        />
+</LinearLayout>

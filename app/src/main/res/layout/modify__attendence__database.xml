@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    tools:context="com.example.aquib.myattendencemanagementsystem.Modify_Attendence_Database">
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+
+        <EditText
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/a_d_modify_status"
+            android:imeOptions="actionNext"
+            android:layout_gravity="center"
+            android:textColor="@color/White"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        style="?android:textAppearanceMedium"
+        android:id="@+id/Update_student_attendence"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/Update_Data"
+        android:textColor="@color/White"
+        android:background="@color/Rpurple"
+        android:layout_marginTop="10dp" />
+    <Button
+        style="?android:textAppearanceMedium"
+        android:id="@+id/Delete_Student_Attendence"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/delete"
+        android:textColor="@color/black"
+        android:background="@color/Lblue"
+        android:layout_marginTop="5dp"
+        />
+
+</LinearLayout>
